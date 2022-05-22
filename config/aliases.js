@@ -1,6 +1,7 @@
 module.exports = {
     '$root': '/',
     '$app': '/app',
+    '$data': '/data',
     '$config': '/config',
     '$bootstrapers': '/bootstrapers',
     '$database': '/database',
@@ -14,5 +15,7 @@ module.exports = {
     '$models': '/app/models',
     '$resources': '/app/resources',
     '$routes': '/app/routes',
-    '$utils': '/app/utils'
+    '$utils': '/app/utils',
+    '$services': '/app/services',
+    '$rules' : '/app/rules'
 };
