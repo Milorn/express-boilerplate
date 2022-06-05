@@ -1,5 +1,5 @@
 const seeders = [
-    'User'
+    'UserSeeder'
 ];
 
 module.exports = seeders;

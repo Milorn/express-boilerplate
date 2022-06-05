@@ -11,7 +11,7 @@ module.exports = {
     '$errors': '/app/errors',
     '$controllers': '/app/http/controllers',
     '$middlewares': '/app/http/middlewares',
-    '$requests': '/app/http/requests',
+    '$validation': '/app/validation',
     '$models': '/app/models',
     '$resources': '/app/resources',
     '$routes': '/app/routes',

@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon main.js"
+    "serve": "nodemon main.js",
+    "migrate": "node database/migrate.js"
   },
   "keywords": [],
   "author": "Milorn",
@@ -16,7 +17,7 @@
     "express": "^4.17.3",
     "helmet": "^5.0.2",
     "module-alias": "^2.2.2",
-    "multer": "^1.4.4",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "sequelize": "^6.19.0"

@@ -11,7 +11,6 @@ const Upload = multer({
         files: conf.maxFiles // max number of files
     },
     fileFilter(req, file, cb) {
-
         cb(null, true);
         for (const mimetype of conf.acceptedMimetypes) {
             if (file.mimetype === mimetype) {

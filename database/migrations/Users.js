@@ -8,5 +8,5 @@ module.exports = {
     password: {
         type: DataTypes.STRING,
         allowNull: false
-    }
+    },
 };

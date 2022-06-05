@@ -10,7 +10,7 @@ aliases(require('path').resolve(__dirname, '..'));
 var db = require('./database');
 
 //Load models
-var loadModels = require('./models');
+var loadModels = require('./loadModels');
 loadModels(db);
 
 //Initialize app

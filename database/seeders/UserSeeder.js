@@ -13,8 +13,8 @@ const data = [
 
 
 module.exports = {
-    seed() {
+    async seed(){
         const Seeder = require('./Seeder');
-        Seeder(User, data);
+        return Seeder(User, data);
     }
 };
